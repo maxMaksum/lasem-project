@@ -110,10 +110,10 @@ const saveData=async (e)=>{
 <div ref={myDivRef} style={{ height: "500px", overflow: "scroll" }} className=' relative h-screen z-20 w-full mx-auto bg-gray-50'>
         <Spinner />
 
-<table className="table-auto w-2xl mx-auto">
+<table className="table-auto w-2xl mx-auto text-gray-900">
   <thead>
     <tr>
-      <th className="p-2 sm:p-4">RM</th>
+      <th className="p-2 sm:p-4 text-gray-500">RM</th>
       <th className="p-2 sm:p-4">Nama</th>
       <th className="p-2 sm:p-4">Nama KK</th>
       
